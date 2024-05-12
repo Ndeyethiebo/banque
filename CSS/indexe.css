@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../images/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login-container {
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 50px; /* Espacement entre la barre d'en-tête et le contenu principal */
+    
+}
+
+h2 {
+    margin-bottom: 20px;
+    color:  #4CAF50;;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color:  #4CAF50;;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #4CAF50;;
+}
+
+.error {
+    color: red;
+}
+
+header {
+    background-color: #4CAF50;; /* Couleur de fond de la barre d'en-tête */
+    color: #fff; /* Couleur du texte dans la barre d'en-tête */
+    padding: 10px 20px; /* Espacement intérieur de la barre d'en-tête */
+    position: fixed; /* Fixer la barre d'en-tête en haut de la page */
+    width: 100%; /* Largeur de la barre d'en-tête sur toute la largeur de la fenêtre */
+    top: 0; /* Positionner la barre d'en-tête en haut de la fenêtre */
+    z-index: 1000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* Assurer que la barre d'en-tête est au-dessus de tout le reste */
+}
+

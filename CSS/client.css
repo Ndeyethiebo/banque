@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/img5.jpg');
+    background-size: cover;
+    color:  #4CAF50;;
+}
+
+.container {
+    margin-top: 20px;
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+.account-info, .operations {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color:  #4CAF50;
+    ;
+}
+
+.account-info p, .operations p {
+    margin: 8px 0;
+}
+
+.operations form {
+    display: flex;
+    flex-direction: column;
+}
+
+.operations form input[type="submit"] {
+    margin-top: 16px;
+}
+header {
+    background-color: #4CAF50;; /* Couleur de fond de la barre d'en-tête */
+    color: #fff; /* Couleur du texte dans la barre d'en-tête */
+    padding: 10px 20px; /* Espacement intérieur de la barre d'en-tête */
+    position: fixed; /* Fixer la barre d'en-tête en haut de la page */
+    width: 100%; /* Largeur de la barre d'en-tête sur toute la largeur de la fenêtre */
+    top: 0; /* Positionner la barre d'en-tête en haut de la fenêtre */
+    z-index: 1000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    height: 50px; /* Assurer que la barre d'en-tête est au-dessus de tout le reste */
+}

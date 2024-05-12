@@ -1,0 +1,120 @@
+/* employer.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/img2.jpg');
+    background-size: cover;
+    color: #4CAF50;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-bottom: 20px;
+    color : black
+
+}
+
+label {
+    font-weight: bold;
+    color : black
+}
+header {
+    background-color: #4CAF50;; /* Couleur de fond de la barre d'en-tête */
+    color: #fff; /* Couleur du texte dans la barre d'en-tête */
+    padding: 10px 20px; /* Espacement intérieur de la barre d'en-tête */
+    position: fixed; /* Fixer la barre d'en-tête en haut de la page */
+    width: 100%; /* Largeur de la barre d'en-tête sur toute la largeur de la fenêtre */
+    top: 0; /* Positionner la barre d'en-tête en haut de la fenêtre */
+    z-index: 1000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* Assurer que la barre d'en-tête est au-dessus de tout le reste */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+}
+
+.login-container {
+    width: 500px;
+    margin-top: 10px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}*/
+
+header h1 {
+    margin: 0;
+}
+
+header button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+header button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,50 @@
+/* Reset des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     background-image: url(../images/fond.jpg);
+     background-color: transparent;
+     background-size: cover;
+     background-repeat: no-repeat;
+    
+}
+
+/* Styles pour le conteneur principal */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+
+.menu {
+    margin-bottom: 100px;
+    background-color: #fff;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 20px 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.menu a:hover {
+    background-color:royalblue;
+    color: #fff;
+}
+
